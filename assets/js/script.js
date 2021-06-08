@@ -107,6 +107,22 @@ function nextquestion() {
     { 
         i=i+1;
         displayQuestion();
+    } else {
+        points.innerHTML = score+'/'+questionBank.length;
+        quizContainer.style.display = 'block;'
     }
+}
+// click events to next button
+next.addEventListener ('click', nextQuestion);
+
+//back to Quiz button
+function backToQuiz() {
+    location.reload()
+}
+
+//function to check answer
+function checkAnswer() {
+    let answerBank = document.getElementById('answerBank');
+    let answers = document.getElementById('answers')
 }
 displayQuestion();
