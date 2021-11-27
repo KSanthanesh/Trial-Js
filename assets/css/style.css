@@ -2,9 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper {
+/* .container-wrapper {
 
-}
+} */
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -48,8 +48,8 @@ body {
     background-color: rgba(0,0,0,0,5);
 }
 
-.quotes-container {}
-.features-container {}
+/* .quotes-container {}
+.features-container {} */
 
 /* page header */
 .page-header {
@@ -176,3 +176,9 @@ body {
     margin-top: 20px;
     color: #f05f40;
 }
+
+
+#mc_embed_signup form {
+   padding: 0;
+}
+	
